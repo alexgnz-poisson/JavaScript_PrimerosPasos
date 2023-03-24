@@ -1,0 +1,31 @@
+JS es un lenguaje interpretado que nos permite trabajar tanto como sistema web
+como aplicaciones que van a correr del lado del servidor .
+¿Qué son las variables? Las variables son espacios de memoria donde colocamos datos.
+
+Hola mundo en JS
+console.log("Hola Mundo");
+Se abre la terminal se escribe node , luego el nombre del programa 
+se da Enter y corre el Hola Mundo 
+
+JavaScript es un lenguaje sensible a mayusculas y minisculas
+Hay que tener cuidado con lo que uno escribe en sus variables 
+Iniciar con letra minúscula, cada nueva palabra inicia con mayúscula y no usar caracteres especiales.
+
+Conversion de TIpos de datos 
+En el codigo 04 Se encuentran ahi los tipos de datos. 
+
+Funciones para convertir los digitos 
+parseInt Hace que lo que este entre parentesis se convierta en numero entero 
+parseFloat Hace que lo que este entre parentesis se convierta en numero flotante
+
+Ahora que ya vimos las diferentes forma de declarar variables y cómo es su forma de uso, podemos afirmar que:
+
+Toda vez que declaramos una variable, estamos reservando espacio de memoria del computador.
+Exactamente, una variable sirve como un nombre, una dirección para ese espacio en memoria del computador.
+
+Sobreescribir el valor de una variable es cambiar el contenido de ella. Para eso necesitamos hacer uso del operador (=),
+con el cual asignamos el nuevo valor que va a contener.
+Recordando que eso es posible de hacer sólo en variables que no hayan sido declaradas con la palabra reservada const
+
+Existen diferentes tipos de datos que podemos gestionar, tal como textos y números.
+Otra forma de llamar a las variables tipo texto es strings. 
