@@ -29,3 +29,21 @@ Recordando que eso es posible de hacer sólo en variables que no hayan sido decl
 
 Existen diferentes tipos de datos que podemos gestionar, tal como textos y números.
 Otra forma de llamar a las variables tipo texto es strings. 
+
+OPERADORES LOGICOS 
+
+De las afirmaciones que siguen relacionadas con los operadores lógicos utilizados en Javascript. Cuales de ellas son 
+verdaderas.
+
+El operador lógico AND se representa en el código por los caracteres && y el operador lógico OR por ||.
+AND es representado por && y OR por ||.
+
+Los operadores lógicos deben tener tanto para el lado izquierdo como para el lado derecho expresiones booleanas.
+
+if (edadComprador >= 18 && edadComprador < 30) {
+
+}
+Note que del lado izquierdo del operador && hay una condición lógica o booleana que retorna verdadero o falso y del 
+lado derecho sucede lo mismo.
+
+
