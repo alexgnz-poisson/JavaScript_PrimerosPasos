@@ -46,4 +46,38 @@ if (edadComprador >= 18 && edadComprador < 30) {
 Note que del lado izquierdo del operador && hay una condición lógica o booleana que retorna verdadero o falso y del 
 lado derecho sucede lo mismo.
 
+En la expresión condicional del while es posible utilizar cualquier operador de comparación (< [menor], 
+> [mayor], <= [menor o igual], >= [mayor o igual], == [igual a] y != [diferente de]) además de cualquier operador lógico 
+(&& [y], || [o]).
+Así es. Todos los operadores lógicos y de comparación son válidos, pues todos ellos se pueden usar en expresiones 
+condicionales. Recuerda que puedes combinarlos para validar condiciones complejas.
 
+El lazo while necesita siempre de una expresión condicional que define el punto en que el lazo será interrumpido.
+Recuerda que es condición debe estar colocada entre paréntesis. La condición puede definirse de acuerdo a los operadores 
+lógicos estudiados anteriormente.
+-----------------------------------------------
+Hoisting
+En JavaScript, cada variable es "elevada" (hoisting) a la parte superior de su contexto de ejecución. Este mecanismo 
+mueve las variables a la parte superior de su alcance antes de que se ejecute el código.
+
+En nuestro ejemplo anterior, como la variable mensaje está dentro de una función, su declaración se eleva (alzando) a la 
+parte superior de su contexto, es decir, a la parte superior de la función.
+
+Es por esta misma razón que "es posible usar una variable antes de que se haya declarado": en tiempo de ejecución, la 
+variable se elevará (hoisting) y todo funcionará correctamente.
+
+VAR
+En el caso de la palabra clave var, además de la variable que se iza(hoisting), se inicializa automáticamente con el 
+valor indefinido (si no se asigna ningún otro valor).
+
+let
+Fue pensando en traer el alcance de bloque (tan conocido en otras lenguajes) que ECMAScript 6 tenía la intención de 
+proporcionar la misma flexibilidad (y uniformidad) para el lenguaje.
+Tenga en cuenta que cuando intentamos acceder a una variable que ha sido declarada usando la palabra clave let dejada 
+fuera de su alcance, se presentó el error Uncaught ReferenceError: scopeBlock no está definido.
+
+Por lo tanto, podemos usar let sin problemas, ya que el alcance de bloque está garantizado.
+
+const
+Aunque let garantiza el alcance, todavía existe la posibilidad de declarar una variable con let y ella ser undifined. 
+Al igual que las variables declaradas con la palabra clave let, las constantes también tienen un alcance de bloque.
