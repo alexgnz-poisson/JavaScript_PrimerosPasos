@@ -22,22 +22,17 @@ const datos = [
 
 const presupuestoDisponible = 400;
 
-let i = 0;
-//while 0 o mas veces
-//Do while, 1 o mas veces
+//For valor inicial para un valor final 
 
-// while(i < datos.length && datos[i].precio > presupuestoDisponible ){
-//     i++;
-// }
 let ciudadSeleccionada = '';
-do{
+for (let i = 0; i < datos.length && ciudadSeleccionada =='' ; i++) {
+
     if(datos[i].precio <= presupuestoDisponible ){
         ciudadSeleccionada = datos[i].ciudad;
-        //esto rompe el lazo
-        break;
+        
     }
-    i++;
-} while(i < datos.length && ciudadSeleccionada =='' );
+}
+
 if(ciudadSeleccionada == ''){
     console.log("No tenemos pasajes disponibles");
 }
@@ -45,4 +40,3 @@ else{
     console.log("Puedes comprar pasaje para: "+ciudadSeleccionada);
 
 }
-

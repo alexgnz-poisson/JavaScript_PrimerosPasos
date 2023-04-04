@@ -55,6 +55,21 @@ condicionales. Recuerda que puedes combinarlos para validar condiciones compleja
 El lazo while necesita siempre de una expresión condicional que define el punto en que el lazo será interrumpido.
 Recuerda que es condición debe estar colocada entre paréntesis. La condición puede definirse de acuerdo a los operadores 
 lógicos estudiados anteriormente.
+
+SENTENCIA break
+
+Cuando trabajamos con lazos o bucles de repetición es práctica común iterar hasta que la condición de salida se cumpla. 
+En ese sentido, cuál es el papel del comando break dentro de un lazo de repetición?
+El comando break interrumpe la ejecución del lazo de manera forzosa sin evaluar la condición de salida.
+
+Al colocar un break en nuestro lazo, el interpretador entiende que deseamos romper el lazo y salir del bucle sin 
+evaluar más nada.
+
+
+launch.json , donde json significa JavaScript Object Notation
+Es un archivo de mapa o diccionario que permite tener variables valor , y multiples variables 
+
+Se puede hacer el debugeo sin necesidad de tener abierto el programa, configurando y creando su archivo json
 -----------------------------------------------
 Hoisting
 En JavaScript, cada variable es "elevada" (hoisting) a la parte superior de su contexto de ejecución. Este mecanismo 
